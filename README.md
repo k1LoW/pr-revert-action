@@ -12,13 +12,13 @@ on:
   workflow_dispatch:
     inputs:
       latest:
-        description: 'Number of most recently merged pull requests to revert'
+        description: '--latest: Number of most recently merged pull requests to revert'
         required: false
       until:
-        description: 'Duration of most recently merged pull requests to revert'
+        description: '--until: Duration of most recently merged pull requests to revert'
         required: false
       number:
-        description: 'Number of merged pull request to revert'
+        description: '--number: Number of merged pull request to revert'
         required: false
 
 jobs:
