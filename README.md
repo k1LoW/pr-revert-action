@@ -15,7 +15,7 @@ on:
         description: '--latest: Number of most recently merged pull requests to revert'
         required: false
       until:
-        description: '--until: Duration of most recently merged pull requests to revert'
+        description: '--until: Duration of "merged pull requests that will be reverted"'
         required: false
       number:
         description: '--number: Number of merged pull request to revert'
