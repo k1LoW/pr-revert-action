@@ -3,7 +3,3 @@ description: 'GitHub Action for pr-revert, a tool for reverting pull requests.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-inputs:
-  args:
-    description: 'Arguments to pass to pr-revert'
-    required: false
